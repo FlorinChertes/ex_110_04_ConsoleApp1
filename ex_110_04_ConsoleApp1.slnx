@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ex_110_04_ConsApp1_Setup1/ex_110_04_ConsApp1_Setup1.vdproj" Type="Installer">
+    <BuildType Project="Release" />
+  </Project>
+  <Project Path="ex_110_04_ConsoleApp1/ex_110_04_ConsoleApp1.vbproj" Id="1ac42e8b-3510-496e-b08d-55349651fab8" />
+</Solution>
