@@ -8,9 +8,14 @@
 
   <ItemGroup>
     <Compile Include="..\ex_110_04_ConsoleApp1\BoltCalculations.vb" Link="BoltCalculations.vb" />
+    <Compile Include="..\ex_110_04_ConsoleApp1\BoltSetterTable.vb" Link="BoltSetterTable.vb" />
+    <Compile Include="..\ex_110_04_ConsoleApp1\BoltUtilities.vb" Link="BoltUtilities.vb" />
     <Compile Include="..\ex_110_04_ConsoleApp1\clsBolt.vb" Link="clsBolt.vb" />
+    <Compile Include="..\ex_110_04_ConsoleApp1\InputDataFileOpen.vb" Link="InputDataFileOpen.vb" />
+    <Compile Include="..\ex_110_04_ConsoleApp1\PropertiesRead.vb" Link="PropertiesRead.vb" />
     <Compile Include="..\ex_110_04_ConsoleApp1\Standard_calculations.vb" Link="Standard_calculations.vb" />
     <Compile Include="..\ex_110_04_ConsoleApp1\Standard_factory.vb" Link="Standard_factory.vb" />
+    <Compile Remove="BoltCalculationsTest.vb" />
     <Compile Remove="BoltSetterTable.vb" />
     <Compile Remove="BoltUtilities.vb" />
     <Compile Remove="InputDataFileOpen.vb" />

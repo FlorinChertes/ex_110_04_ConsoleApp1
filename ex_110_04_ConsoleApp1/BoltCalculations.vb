@@ -39,19 +39,20 @@ Module BoltCalculations
 
     End Sub
 
-    Sub Calculate_with_factory(bolt As Bolt)
+    Function Calculate_with_factory(bolt As Bolt) As Double
 
         Dim standard As Standard_Base = Make_Standard(bolt.GetStandard())
 
         If standard Is Nothing Then
             Console.WriteLine("Not AFNOR, BS, or GOST")
-            Return
+            Return Double.NaN
         End If
 
         standard.Calculate(bolt)
         Dim size As Double = standard.Calculate_Size(bolt)
-        Console.WriteLine("Calculated size: " & size.ToString(CultureInfo.InvariantCulture))
 
-    End Sub
+        Return size
+
+    End Function
 
 End Module

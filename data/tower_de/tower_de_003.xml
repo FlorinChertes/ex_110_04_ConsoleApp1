@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--DETower Input Data-->
+<DesignData>
+  <ProjectInfo>
+    <PoleType>1</PoleType>
+    <PoleBoltGrade>9</PoleBoltGrade>
+    <PoleBoltSize>30.243</PoleBoltSize>
+    <PoleFlangeGrade>S 235</PoleFlangeGrade>
+    <PoleBoltStandard>GOST</PoleBoltStandard>
+  </ProjectInfo>
+</DesignData>

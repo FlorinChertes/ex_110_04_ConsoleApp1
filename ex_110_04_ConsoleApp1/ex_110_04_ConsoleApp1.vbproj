@@ -75,6 +75,7 @@
     <Compile Include="clsBolt.vb" />
     <Compile Include="InputDataFileOpen.vb" />
     <Compile Include="Module1.vb" />
+    <Compile Include="PropertiesRead.vb" />
     <Compile Include="Standard_calculations.vb" />
     <Compile Include="Standard_factory.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
