@@ -49,6 +49,8 @@ Module BoltCalculations
         End If
 
         standard.Calculate(bolt)
+        Dim size As Double = standard.Calculate_Size(bolt)
+        Console.WriteLine("Calculated size: " & size.ToString(CultureInfo.InvariantCulture))
 
     End Sub
 
