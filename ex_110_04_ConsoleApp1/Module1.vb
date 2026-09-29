@@ -42,10 +42,6 @@ Module Module1
         ' BoltCalculations.Calculate(bolt)
         BoltCalculations.Calculate_with_factory(bolt)
 
-        BoltCalculationsTest.Calculate_with_factory(bolt)
-
-
-
     End Sub
 
-    End Module
+End Module

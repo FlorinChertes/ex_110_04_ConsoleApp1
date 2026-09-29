@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ex_110_04_ConsoleAppTest</RootNamespace>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\ex_110_04_ConsoleApp1\BoltCalculations.vb" Link="BoltCalculations.vb" />
+    <Compile Include="..\ex_110_04_ConsoleApp1\clsBolt.vb" Link="clsBolt.vb" />
+    <Compile Include="..\ex_110_04_ConsoleApp1\Standard_calculations.vb" Link="Standard_calculations.vb" />
+    <Compile Include="..\ex_110_04_ConsoleApp1\Standard_factory.vb" Link="Standard_factory.vb" />
+    <Compile Remove="BoltSetterTable.vb" />
+    <Compile Remove="BoltUtilities.vb" />
+    <Compile Remove="InputDataFileOpen.vb" />
+  </ItemGroup>
+
+</Project>

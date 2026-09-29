@@ -1,4 +1,4 @@
 <Solution>
-  <Folder Name="/Projektmappenelemente/" />
   <Project Path="ex_110_04_ConsoleApp1/ex_110_04_ConsoleApp1.vbproj" Id="1ac42e8b-3510-496e-b08d-55349651fab8" />
+  <Project Path="ex_110_04_ConsoleAppTest/ex_110_04_ConsoleAppTest.vbproj" Id="0b26c664-7e96-4f90-be16-9fbc40322a9e" />
 </Solution>
