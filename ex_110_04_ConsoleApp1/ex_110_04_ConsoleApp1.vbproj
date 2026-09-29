@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BoltCalculations.vb" />
+    <Compile Include="BoltCalculationsTest.vb" />
     <Compile Include="BoltSetterTable.vb" />
     <Compile Include="BoltUtilities.vb" />
     <Compile Include="clsBolt.vb" />
