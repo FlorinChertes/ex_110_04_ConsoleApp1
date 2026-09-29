@@ -2,10 +2,12 @@
 Public Class Bolt
     Private size_ As Double
     Private grade_ As Integer
+    Private standard_ As String
 
     Public Sub New()
         size_ = 0.0
         grade_ = 0
+        standard_ = ""
     End Sub
 
     Public Sub New(size As Double, grade As Integer)
@@ -26,5 +28,13 @@ Public Class Bolt
     Public Sub SetGrade(grade As Integer)
         grade_ = grade
     End Sub
+
+    Public Function GetStandard() As String
+        Return standard_
+    End Function
+    Public Sub SetStandard(standard As String)
+        standard_ = standard
+    End Sub
+
 End Class
 

@@ -14,4 +14,8 @@ Module BoltUtils
         bolt.SetGrade(Integer.Parse(gradeStr, CultureInfo.InvariantCulture))
     End Sub
 
+    Sub GSetBoltStandard(bolt As Bolt, standardStr As String)
+        bolt.SetStandard(standardStr)
+    End Sub
+
 End Module

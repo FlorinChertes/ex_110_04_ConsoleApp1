@@ -7,7 +7,8 @@ Module BoltSetterTable
 
         Return New Dictionary(Of String, Setter) From {
             {"PoleBoltSize", AddressOf GSetBoltSize},
-            {"PoleBoltGrade", AddressOf GSetBoltGrade}
+            {"PoleBoltGrade", AddressOf GSetBoltGrade},
+            {"PoleBoltStandard", AddressOf GSetBoltStandard}
         }
 
     End Function

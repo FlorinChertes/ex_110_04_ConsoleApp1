@@ -37,11 +37,10 @@ Module Module1
         Next
 
         'print the bolt properties
-        Console.WriteLine(
-            "Bolt size: " & bolt.GetSize().ToString(CultureInfo.InvariantCulture) &
-            ", grade: " & bolt.GetGrade().ToString(CultureInfo.InvariantCulture)
-        )
+        BoltCalculations.Print(bolt)
 
+        ' BoltCalculations.Calculate(bolt)
+        BoltCalculations.Calculate_with_factory(bolt)
 
     End Sub
 

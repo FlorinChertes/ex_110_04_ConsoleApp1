@@ -69,11 +69,14 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BoltCalculations.vb" />
     <Compile Include="BoltSetterTable.vb" />
     <Compile Include="BoltUtilities.vb" />
     <Compile Include="clsBolt.vb" />
     <Compile Include="InputDataFileOpen.vb" />
     <Compile Include="Module1.vb" />
+    <Compile Include="Standard_calculations.vb" />
+    <Compile Include="Standard_factory.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
